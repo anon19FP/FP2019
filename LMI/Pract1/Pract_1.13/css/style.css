@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 201, 180);
+}
+h1{
+    color: rgba(77, 34, 17, 0.822);
+    text-align: center;
+}
+div.izquierda{
+    float: left;
+    margin-top: 5px;
+}
+div.centro{
+    padding-left: 45%;
+    padding-top: 10%;
+}
+div.derecha{
+    float: right;
+    margin-bottom: 10px;
+}
+hr{
+    clear: both;
+}
+p{
+    color: rgb(165, 9, 9);
+}
