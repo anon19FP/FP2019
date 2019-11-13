@@ -38,6 +38,6 @@ table{
 caption{
     font-weight: bold;
 }
-.textotablas{
-    font-size: 120%;
+td{
+    color:  orangered;
 }
