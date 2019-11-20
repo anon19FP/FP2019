@@ -1,14 +1,48 @@
-p{
-    color: blue;
+header{
+    background-color: rgb(240, 240, 131);
 }
-#pdf1{
-    width: 30%;
-    height: 150px;
+.logo{
+    width: 20%;
+    height: 80%;
+    float: left;
 }
-#enlace1{
-    width: 60%;
-    height: 300px;
+.foto_header1{
+    width: 20%;
+    height: 80%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-th{
+.foto_header2{
+    width: 20%;
+    height: 80%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2{
+    color: rgba(160, 100, 160, 0.945);
+}
+h3{
+    color: rgba(160, 100, 160, 0.945);
+}
+nav{
+    background-color: gray;
+    color: yellow;
+    width: fit-content;
+    text-overflow: clip;
+}
+.mover_2{
+    float: right;
+    clear: both;
+}
+.mapa{
     text-align: center;
+    padding-left: 35%;
+}
+.azul_fondo{
+    background-color: rgba(148, 215, 219, 0.609);
+}
+footer{
+    background-color: rgb(240, 240, 131);
 }
