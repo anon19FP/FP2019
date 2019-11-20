@@ -1,0 +1,14 @@
+p{
+    color: blue;
+}
+#pdf1{
+    width: 30%;
+    height: 150px;
+}
+#enlace1{
+    width: 60%;
+    height: 300px;
+}
+th{
+    text-align: center;
+}
