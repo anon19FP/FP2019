@@ -27,10 +27,7 @@ h3{
     color: rgba(160, 100, 160, 0.945);
 }
 nav{
-    background-color: gray;
-    color: yellow;
-    width: fit-content;
-    text-overflow: clip;
+   color: yellow;
 }
 .mover_2{
     float: right;
@@ -45,4 +42,16 @@ nav{
 }
 footer{
     background-color: rgb(240, 240, 131);
+}
+.menu{
+    list-style-type: none;
+}
+.menu_li{
+    background-color: rgb(117, 113, 108);
+    float: left;
+    text-align: center;
+    width: 10em;
+}
+hr{
+    clear: both;
 }
