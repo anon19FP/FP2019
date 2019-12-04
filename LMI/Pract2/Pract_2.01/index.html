@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Test</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <section class="section_uno">
+       <form action="database.php">
+            <fieldset>
+                <table>
+                        <tr>
+                            <td>
+                                <p>Tratamiento: *</p>
+                                <input type="radio" name="boton" value="1">Sr.
+                                <input type="radio" name="boton" value="1">Sra.
+                            </td>                    
+                            <td>
+                                <p>Nombre: *</p>
+                                <input type="text" name="nombre" placeholder="Tu nombre">
+                            </td>
+                            <td>
+                                <p>Apellido 1: *</p>
+                                <input type="text" name="apellido1" placeholder="primer apellido">
+                            </td>
+                            <td>
+                                <p>Apellido 2: *</p>
+                                <input type="text" name="apellido2" placeholder="segundo apellido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tipo Doc: *</p>
+                                <select name="doc" id="t_doc">
+                                    <option value="0" selected>-</option>
+                                    <option value="1">DNI</option>
+                                    <option value="2">NIF</option>
+                                    <option value="3">PASAPORTE</option>
+                                </select>
+                            </td>
+                            <td>
+                                <p>Nº Doc: *</p>
+                                <input type="text" name="num_doc" placeholder="16191581n">
+                            </td>
+                            <td>
+                                <p>Fecha de nacimiento: *</p>
+                                <input type="date" name="fecha">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Pais de nacimiento: *</p>
+                                <select name="pais" id="pais_nac">
+                                    <option value="0" selected>ESPAÑA</option>
+                                    <option value="1">ALEMANIA</option>
+                                    <option value="2">FRANCIA</option>
+                                    <option value="3">OTRO</option>
+                                </select>
+                            </td>
+                            <td>
+                                <p>Nacionalidad: *</p>
+                                <select name="nacionalidad" id="nacionalidad">
+                                        <option value="0" selected>ESPAÑA</option>
+                                        <option value="1">ALEMANIA</option>
+                                        <option value="2">FRANCIA</option>
+                                        <option value="3">OTRO</option>
+                                </select>
+                            </td>
+                            <td>
+                                <p>Segunda nacionalidad: *</p>
+                                <select name="s_nacionalidad" id="s_nacionalidad">
+                                        <option value="0" selected>Ninguna</option>
+                                        <option value="1">ESPAÑA</option>
+                                        <option value="2">FRANCIA</option>
+                                        <option value="3">OTRO</option>
+                                </select>
+                            </td>  
+                            <td>
+                                <p>Pais de residencia fiscal: *</p>
+                                <select name="res_fiscal" id="res_fiscal">
+                                        <option value="0" selected>ESPAÑA</option>
+                                        <option value="1">FRANCIA</option>
+                                        <option value="2">ALEMANIA</option>
+                                        <option value="3">OTRO</option>
+                                </select>
+                            </td>                                                       
+                        </tr> 
+                        <tr>
+                                <td>
+                                    <p>Trabajo: *</p>
+                                    <select name="trabajo" id="trabajo">
+                                        <option value="0" selected>-</option>
+                                        <option value="1">PROFESOR</option>
+                                        <option value="2">CAMARERO</option>
+                                        <option value="3">OTRO</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <p>Tipo de actividad: *</p>
+                                    <select name="t_actividad" id="t_actividad">
+                                            <option value="0" selected>-</option>
+                                            <option value="1">ACTIVA</option>
+                                            <option value="2">PASIVA</option>
+                                            <option value="3">OTRO</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <p>Sector profesional: *</p>
+                                    <select name="s_profesional" id="s_profesional">
+                                            <option value="0" selected>-</option>
+                                            <option value="1">PRIMERO</option>
+                                            <option value="2">SEGUNDO</option>
+                                            <option value="3">OTRO</option>
+                                    </select>
+                                </td>  
+                                <td>
+                                    <p>Empresa: *</p>
+                                    <input type="text" name="empresa" placeholder="Inmoab S.L">
+                                </td>                                                       
+                            </tr>
+                            <div class="fondo_tabla">
+                                <tr>
+                                    <td>
+                                        <p>Tipo de via: *</p>
+                                        <select name="tipo_via" id="t_via">
+                                            <option value="0" selected>CALLE</option>
+                                            <option value="1">VIA</option>
+                                            <option value="2">AVENIDA</option>
+                                            <option value="3">OTRO</option>
+                                        </select>
+                                    </td>
+                                    <td rowspan="2">
+                                        <p>Direccion: *</p>
+                                        <input class="celda_doble" type="text" name="direccion" placeholder="Alberique">
+                                    </td>                               
+                                </tr> 
+                            </div>                                              
+                </table>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
