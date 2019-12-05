@@ -3,10 +3,6 @@
     padding: 8px;
     width: 800px;
 }
-fieldset{
-    width: max-content;
-    height: max-content;
-}
 td{
     width: 200px;
     word-wrap: break-word;
@@ -17,7 +13,59 @@ select{
 }
 .fondo_tabla{
     background-color: rgba(233, 215, 199, 0.712);
+    width: 750px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 15px;
 }
 .celda_doble{
-    width: 350px;
+    width: 368px;
+}
+.por_encima{
+    position: absolute;
+}
+.table_uno{
+    margin-left: 20px;
+}
+.float_left{
+    float: left;
+    margin-left: 8px;
+    width: 45%;
+}
+.mitad_tamaño{
+    width: 88%;
+}
+.texto_info{
+    color: gray;
+    width: 55%;
+    float: left;
+}
+.img_style{
+    float: left;
+}
+.img_style_dos{
+    width: 80%;
+    margin-left: 50px;
+}
+.header{
+    margin-left: 100px;
+}
+.test_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex_container{
+    margin-left: 30px;
+}
+.input_size{
+    width: 250px;
+    height: 30px;
+}
+.margin_left{
+    margin-left: 28px;
+}
+.margin_left_width{
+    margin-left: 28px;
+    width:  830px;  
 }
