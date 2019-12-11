@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 201, 180);
+}
+h1{
+    color: rgba(104, 46, 23, 0.822);
+    text-align: center;
+}
+div.izquierda{
+    float: left;
+    margin-top: 5px;
+}
+div.centro{
+    padding-left: 45%;
+    padding-top: 10%;
+}
+div.derecha{
+    float: right;
+    margin-bottom: 10px;
+}
+hr{
+    clear: both;
+}
+p{
+    color: orangered;
+}
+h2{
+    color: rgb(168, 21, 50);
+    font-weight: bold;;
+}
+th{
+    text-align: center;
+    font-weight: bold;
+    background-color: palegoldenrod;
+}
+table{
+    width: 100%;
+}
+caption{
+    font-weight: bold;
+}
+td{
+    color:  orangered;
+}
