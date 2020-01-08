@@ -1,0 +1,27 @@
+div {
+    border: black 5px solid;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  div p:first-child {
+    color: red;
+  }
+  a:link {
+    background-color: lightblue;
+  }  
+  a:visited {
+    background-color: coral;
+  }
+  a:active{
+      background-color: violet;
+  }
+
+  #hovertest:hover{
+      background-color: black;
+      color: yellow;
+  }
+  input:focus {
+    border: red 2px dotted;
+    padding: 2px;
+  }
