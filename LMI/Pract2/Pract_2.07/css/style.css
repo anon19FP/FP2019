@@ -25,3 +25,12 @@ div {
     border: red 2px dotted;
     padding: 2px;
   }
+
+  pre{
+    counter-reset: c_parrafos;
+  }
+
+  p::before{
+    content: counter(c_parrafos);
+    counter-increment: c_parrafos;
+  }
