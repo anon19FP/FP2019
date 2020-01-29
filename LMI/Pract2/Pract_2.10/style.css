@@ -1,0 +1,52 @@
+body{
+    text-align: justify;
+    font-size: 115%;;
+}
+
+.borde_negro{
+    border: black 2px solid;
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.borde-primer-parrafo{
+    border-top: double red 1rem;
+    border-left: double red 1rem;
+}
+
+.borde-segundo-parrafo{
+    border-top: blue;
+    border-left: green;
+    border-bottom: blue ;
+    border-right: green;
+    border-width: .3rem .3rem 1rem 1rem;
+    border-style: dashed;
+}
+.borde-tercer-parrafo{
+    border: rgb(170, 180, 26) double;
+    border-width: 2rem .3rem 2rem .3rem;
+}
+
+.borde-cuarto-parrafo{
+    border-top: greenyellow solid;
+    border-bottom: blue solid;
+    border-width: 1rem;
+    font-size: 130%;
+}
+
+.borde-quinto-parrafo{
+    border: black solid;
+    border-top: dashed red;
+    border-bottom: dotted;
+    border-width: 2rem;
+    font-size: 150%;
+}
+
+.borde-sexto-parrafo{
+    border: black dashed .8rem;
+    border-top: dotted .3rem;
+    border-left: double red 1rem;
+    font-size: 130%;
+}
