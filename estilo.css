@@ -1,0 +1,27 @@
+p.p_doscientos {
+    font-size: 150%;
+}
+
+p.p_cien{
+    font-size: 100%;
+}
+
+p.p_cincuenta{
+    font-size: 50%;
+}
+
+hr {
+    width: 50%;
+  }
+
+  p.borde-em {
+    border: red 1em solid;
+  }
+  
+  p.borde-ex {
+    border: green 1ex solid;
+  }
+  
+  p.borde-ch {
+    border: blue 1ch solid;
+  
