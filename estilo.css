@@ -1,27 +1,25 @@
-p.p_doscientos {
-    font-size: 150%;
+.a {
+    line-height: 200%;
 }
 
-p.p_cien{
-    font-size: 100%;
+.b {
+  line-height: 70%;
 }
 
-p.p_cincuenta{
-    font-size: 50%;
+.c {
+  font: 175% sans-serif;
 }
 
-hr {
-    width: 50%;
-  }
+.d {
+  font-family: arial;
+}
 
-  p.borde-em {
-    border: red 1em solid;
-  }
-  
-  p.borde-ex {
-    border: green 1ex solid;
-  }
-  
-  p.borde-ch {
-    border: blue 1ch solid;
-  
+.e {
+  font-weight: 800;
+}
+
+.f {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Monoton', cursive;
+  font-size: 180%;
+}
