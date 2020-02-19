@@ -1,25 +1,130 @@
-.a {
-    line-height: 200%;
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    background-color: bisque;
 }
 
-.b {
-  line-height: 70%;
+/* Estilos header */
+
+header {
+    background-color: lightsalmon;
 }
 
-.c {
-  font: 175% sans-serif;
+nav {
+    border: 2px solid red;
+    background-color: yellow;
+    color: orange;
+    padding: 3%;
 }
 
-.d {
-  font-family: arial;
+h1 {
+    text-align: center;
+    text-shadow: brown 6px 0;
+    font-family: cursive;
+    color: white;
+    text-transform: uppercase;
+}
+  
+li.top {
+    background-color: yellow;
+    float: left;
+    list-style-type: none;
+    width: 8%;
+    font-weight: bold;
+    margin-right: 10%;
+    display: inline-block;
 }
 
-.e {
-  font-weight: 800;
+ul.top {
+    list-style-type: none;
+    display: inline;
 }
 
-.f {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Monoton', cursive;
-  font-size: 180%;
+/* Estilos main */
+
+div.image {
+    background-image: url("img/naranja2.svg");
+    background-position: left;
+    background-repeat: repeat-x;
+    background-size: 2%;
+    margin-top: -1%;
+}
+
+p:hover{
+    z-index: 4;
+}
+
+p.one {
+    background: url("img/naranja.png") top left repeat-y, url("img/naranja.png") top right repeat-y;
+    background-size: 10%;
+    color: red;
+    letter-spacing: 2px;
+    position: absolute;
+    width: 550px;
+    height: 225px;
+    top: 30%;
+    left: 30%;
+    right: 50%;
+    background-color: salmon;
+    letter-spacing: 5px;
+    z-index: 3;
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p.two {
+    color: darkorange;
+    letter-spacing: 2px;
+    position: absolute;
+    width: 550px;
+    height: 225px;
+    top: 50%;
+    left: 5%;
+    right: 80%;
+    background-color: rgb(210, 216, 19);
+    letter-spacing: 5px;
+    border: 2px solid yellow;
+    text-align: left;
+    font-weight: bold;
+}
+
+p.three {
+    color: orange;
+    text-align: right;
+    position: absolute;
+    font-weight: bold;
+    width: 550px;
+    height: 225px;
+    top: 50%;
+    left: 50%;
+    right: 5%;
+    background-color: lightblue;
+    border: 2px solid blue;
+
+}
+
+/* Estilo footer */
+
+footer {
+    background-color: salmon;
+    margin-top: 30%;
+}
+ul.bottom {
+    list-style-type: upper-roman;
+    color: blue;
+    font-weight: bold;
+}
+
+p.bot {
+    font-weight: bold;
+    color: blue;
+}
+
+p.below {
+    background-color: yellow;
+    text-align: center;
+    color: orange;
 }

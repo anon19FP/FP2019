@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+@media (orientation: portrait) {
+    html {
+      background-color: yellow;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color: limegreen;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    html {
+      background-color: lightblue;
+    }
+  }
+
+header{
+    background-color: lightsalmon;
+    color: rgb(238, 75, 75);
+    font-family: "Zhi Mang Xing";
+    
+}
+
+h1::first-letter{
+    color: chocolate;
+    font-family: Helvetica;
+    background-color: lightpink;
+    font-size: 150%;
+   }
+
+h1{
+   padding-bottom: 30px;
+   margin-top: 0;
+
+}
+
+.verde{
+    background-color: rgb(110, 218, 96);
+}
+
+div p:first-child{
+    color: red;
+}
+
+.banderas{
+    background-color: blanchedalmond;
+   
+}
+
+.t1{
+    background-color: goldenrod;
+    text-align: left;
+}
+
+th{
+    padding: 10px;
+    height: 30px;
+}
+
+.bandera1{
+    background-color: goldenrod;
+    padding: 0;
+ }
+
+.bandera2{
+    background-color: goldenrod;
+}
+
+.bandera1:hover{
+    background-color: yellow;
+}
+
+.bandera2-fondo:hover{
+    background-color: white;
+}
+
+.bandera1-fondo:hover{
+    background-color: red;
+}
+
+.bandera2:hover{
+    background-color: lightskyblue;
+}
+
+.inputtl:focus{
+    background-color: blue;
+    border: red 2px solid;
+}
+
+.fin{
+    height: 15px;
+    background-color: blue;
+    width: 30%;
+    border: red 1px solid;
+}
+
+.bordes{
+    background-color: chocolate;
+    color: yellow;
+    border-top: blue 15px dotted;
+    border-left: red 20px solid;
+    border-right:  red 20px solid;
+    border-bottom: yellow 16px dashed;
+    text-align:  center;
+    font-size: 150%;
+}
+
+footer{
+    background-color: rgb(238, 75, 75);
+    font-family: monospace;
+}
+
+.t2 th{
+    padding-left: 130px;
+}
+
+
